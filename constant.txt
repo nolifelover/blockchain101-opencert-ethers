@@ -1,0 +1,7 @@
+DS: 0xFe8eD9d4fb7D0ac19BF78bf34B10e561e0C66E85
+Domain: professional-red-mammal.sandbox.openattestation.com
+Hash: 0xb9b47c4711091dcc52f695cbadecf0193c214a21e006870111a793595a073c80
+
+open-attestation wrap raw-documents --output-dir wrapped-documents
+0x6a275477154e7013108bae0ebcc8909a15574120747e50ebc12eb348133d3350
+open-attestation document-store issue --address 0xFe8eD9d4fb7D0ac19BF78bf34B10e561e0C66E85 --hash 0x6a275477154e7013108bae0ebcc8909a15574120747e50ebc12eb348133d3350  --network rinkeby --encrypted-wallet-path wallet.json

@@ -1,0 +1,20 @@
+{
+    "$template": {
+      "name": "main",
+      "type": "EMBEDDED_RENDERER",
+      "url": "https://tutorial-renderer.openattestation.com"
+    },
+    "recipient": {
+      "name": "John Doe2"
+    },
+    "issuers": [
+      {
+        "name": "Demo Issuer",
+        "documentStore": "0xFe8eD9d4fb7D0ac19BF78bf34B10e561e0C66E85",
+        "identityProof": {
+          "type": "DNS-TXT",
+          "location": "professional-red-mammal.sandbox.openattestation.com"
+        }
+      }
+    ]
+  }
